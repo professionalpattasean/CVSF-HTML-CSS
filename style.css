@@ -1,0 +1,233 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Image modification */
+
+img {
+    width: 100%;
+    height: 80rem;
+}
+
+/* Column a and b modification */
+
+.column-a{
+
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+.column-b{
+    width: 50%; 
+    float: left; 
+    position: relative; 
+}
+/*Modification of the header section */
+
+#header{
+    background-image: url("header-solar.jpg");
+    height: 1000px;
+}
+#header p {
+    font-size: 2.5rem;
+    color: lightgray;
+    padding-left: 2rem;
+    padding-top: 3rem;
+}
+
+/*Modification of section one*/
+
+#section-one{
+    background-color: #DBC414;
+    padding: 2rem 0 2rem 0; 
+    height: 500px;
+}
+
+#section-one h1 {
+    text-align: center;
+    background-color: #DBC414;
+    color: white;
+    height: 280px;
+    font-size: 4.5rem;
+    padding-top: 10rem;
+}
+
+/*Modification of section two */
+
+#section-two{
+    padding: 2rem 0 2rem 0;
+    background-color: #80ADDB;
+    color: white;
+    text-align: center;
+}
+#section-two h1{
+    font-size: 2.5rem;
+
+}
+
+#section-two p{
+    font-size: 1.5rem;
+}
+#section-two #container-a{
+    max-width: 20%;
+    padding-left: 2rem;
+}
+#section-two #container-b{
+    max-width: 20%;
+    padding-left: 22rem;
+}
+#section-two #container-c{
+    max-width: 20%;
+    padding-left: 42rem;
+}
+#section-two #container-d{
+    max-width: 20%;
+    padding-left: 62rem;
+}
+
+/*Modification of section three */
+
+
+#section-three .column-a{
+    width: 50%;
+    float: left;
+    position: relative;
+    background-color: #197316;
+    height: 500px;
+
+}
+
+#section-three .column-a img{
+    max-height: 300px; 
+    margin: 4.5rem 0 2.5rem 1.5rem;
+    box-sizing: border-box;
+    height: 700px; 
+    width: 600px;
+}
+
+#section-three .column-b{
+    width: 50%;
+    float: left;
+    position: relative; 
+    background-color: #197316;
+    height: 500px;
+    
+}
+
+
+#section-three .column-b .column-text{
+    max-height: 300px; 
+    margin: 2.5rem 0 2.5rem 0;
+    padding: 4rem 1rem 0 1rem;
+    color: white;
+}
+
+#section-three .column-b .column-text h1{
+    max-width: 80%;
+    font-size: 2.25rem;
+    text-align: center;
+}
+#section-three .column-b .column-text p{
+    max-width: 80%;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+/*Modification of section four */
+
+#section-four .column-b{
+    width: 50%;
+    float: left;
+    position: relative;
+    background-color: darkblue;
+    height: 500px;
+
+}
+
+#section-four .column-b img{
+    max-height: 300px; 
+    margin: 4.5rem 0 2.5rem 1.5rem;
+    box-sizing: border-box;
+    height: 700px; 
+    width: 600px;
+}
+
+#section-four .column-a{
+    width: 50%;
+    float: left;
+    position: relative; 
+    background-color: darkblue;
+    height: 500px;
+    
+}
+
+
+#section-four .column-a .column-text{
+    max-height: 300px; 
+    margin: 4.5rem 0 2.5rem 0 !important;
+    padding: 4rem 1rem 0 1rem !important;
+    color: white;
+}
+
+#section-four .column-a .column-text h1{
+    max-width: 80%;
+    font-size: 2.25rem;
+    text-align: center;
+}
+#section-four .column-a .column-text p{
+    max-width: 80%;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+
+/*Modification of section five */
+
+#section-five{
+    float: left;
+    position: relative; 
+    background-color: darkblue;
+    height: 700px;
+}
+
+#section-five h1{
+    font-size: 3rem;
+    color: white; 
+    text-align: center; 
+}
+
+#section-five .row .column-a h3, 
+#section-five .row .column-b h3{
+    color: white;
+    text-align: center;
+    font-size: 30px !important;
+    padding-top: 100px !important; 
+}
+
+#section-five .row .column-a p, 
+#section-five .row .column-b p{
+    color: white;
+    text-align: center;
+    width: 80%;
+    padding-left: 3.5rem !important;
+}
+
+
+/*Modification of the footer */
+
+footer{
+    float: left;
+    position: relative; 
+    background-color: black;
+    color: yellow; 
+    height: 280px; 
+    width: 100%; 
+    text-align: center; 
+}
+
+footer p {
+    padding-top: 120px;
+    font-size: 30px; 
+}
